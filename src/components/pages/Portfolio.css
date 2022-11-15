@@ -1,0 +1,79 @@
+:root {
+    --white: white;
+    --dark-blue: #13293d;
+    --black: black;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    margin: 2% 0;
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+main {
+    max-width: 96%;
+    margin: 2% auto;
+}
+
+.avatar {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-container {
+    position: relative;
+}
+
+.thumbnail {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.big-box {
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.project-container:hover .thumbnail {
+    transform: scale(1.1);
+}
+
+article {
+    display: inline-block;
+    padding: 2%;
+    border: 2px solid var(--dark-blue);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--white);
+}
+
+.project-container:hover .overlay {
+    opacity: .5;
+}
+
+.text {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}

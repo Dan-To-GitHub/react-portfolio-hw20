@@ -1,24 +1,45 @@
 import React from 'react';
+import './Portfolio.css';
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <section className='container' id="work">
+        <h2>Work</h2>
+        <article className="project-container">
+          <img src="https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg" className="thumbnail big-box" alt="Fanpage" />
+          <a href="https://dan-to-github.github.io/fanpage/" target="_blank">
+            <section className="overlay">
+              <h3 className="text">Fanpage</h3>
+            </section>
+          </a>
+        </article>
+        <article className="project-container">
+          <img src="/images/digital-marketing-meeting.jpg" className="thumbnail" alt="Homework 1" />
+          <a href="https://dan-to-github.github.io/homework-1/" target="_blank">
+            <section className="overlay">
+              <h3 className="text">Homework 1: HTML & CSS</h3>
+            </section>
+          </a>
+        </article>
+        <article className="project-container">
+          <img src="/images/bar-hopper.png" className="thumbnail" alt="Bar Hopper" />
+          <a href="https://da-mike.github.io/Bar-Hopper/" target="_blank">
+            <section className="overlay">
+              <h3 className="text">Bar Hopper Application</h3>
+            </section>
+          </a>
+        </article>
+        <article className="project-container">
+          <img src="/images/breaktime-bandits.png" className="thumbnail" alt="Breaktime Bandits" />
+          <a href="https://breakout-bandits-app.herokuapp.com/" target="_blank">
+            <section className="overlay">
+              <h3 className="text">Breaktime Bandits Application</h3>
+            </section>
+          </a>
+        </article>
+      </section>
     </div>
   );
 }
