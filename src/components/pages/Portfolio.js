@@ -16,7 +16,7 @@ export default function Portfolio() {
           </a>
         </article>
         <article className="project-container">
-          <img src="/images/digital-marketing-meeting.jpg" className="thumbnail" alt="Homework 1" />
+          <img src={process.env.PUBLIC_URL + '/images/digital-marketing-meeting.jpg'} className="thumbnail" alt="Homework 1" />
           <a href="https://dan-to-github.github.io/homework-1/" target="_blank">
             <section className="overlay">
               <h3 className="text">Homework 1: HTML & CSS</h3>
@@ -24,7 +24,7 @@ export default function Portfolio() {
           </a>
         </article>
         <article className="project-container">
-          <img src="/images/bar-hopper.png" className="thumbnail" alt="Bar Hopper" />
+          <img src={process.env.PUBLIC_URL + '/images/bar-hopper.png'} className="thumbnail" alt="Bar Hopper" />
           <a href="https://da-mike.github.io/Bar-Hopper/" target="_blank">
             <section className="overlay">
               <h3 className="text">Bar Hopper Application</h3>
@@ -32,7 +32,7 @@ export default function Portfolio() {
           </a>
         </article>
         <article className="project-container">
-          <img src="/images/breaktime-bandits.png" className="thumbnail" alt="Breaktime Bandits" />
+          <img src={process.env.PUBLIC_URL + '/images/breaktime-bandits.png'} className="thumbnail" alt="Breaktime Bandits" />
           <a href="https://breakout-bandits-app.herokuapp.com/" target="_blank">
             <section className="overlay">
               <h3 className="text">Breaktime Bandits Application</h3>

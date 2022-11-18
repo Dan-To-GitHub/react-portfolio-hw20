@@ -9,8 +9,8 @@ export default function Footer() {
                 </div>
 
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a href='https://github.com/Dan-To-GitHub'>GitHub</a></li>
-                    <li class="ms-3"><a href='https://www.linkedin.com/in/danyoungto/'>LinkedIn</a></li>
+                    <li class="ms-3"><a href='https://github.com/Dan-To-GitHub' target="_blank">GitHub</a></li>
+                    <li class="ms-3"><a href='https://www.linkedin.com/in/danyoungto/' target="_blank">LinkedIn</a></li>
                 </ul>
             </footer>
         </div>

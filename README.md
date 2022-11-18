@@ -58,7 +58,7 @@ The following animation shows the web application's appearance and functionality
 
 You’ll use `create-react-app` to build your portfolio, which will include the following:
 
-* A single `Header` component that appears on multiple pages
+* A single `Header` component thnpat appears on multiple pages
 
 * A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
