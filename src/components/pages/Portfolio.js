@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div>
       <h1>Portfolio</h1>
       <section className='container' id="work">
-        <h2>Work</h2>
+        <h2>Past Work</h2>
         <article className="project-container">
           <img src="https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg" className="thumbnail big-box" alt="Fanpage" />
           <a href="https://dan-to-github.github.io/fanpage/" target="_blank">
